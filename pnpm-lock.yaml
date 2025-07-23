@@ -16,7 +16,7 @@ importers:
         version: https://codeload.github.com/sindresorhus/is/tar.gz/ef35cc350af879f5747ccfa9bde6343cc30b144d
       '@t3-oss/env-core':
         specifier: ^0.13.8
-        version: 0.13.8(typescript@5.8.3)(zod@3.25.76)
+        version: 0.13.8(typescript@5.8.3)(zod@4.0.5)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -29,6 +29,9 @@ importers:
       std-env:
         specifier: ^3.9.0
         version: 3.9.0
+      zod:
+        specifier: ^4.0.5
+        version: 4.0.5
     devDependencies:
       '@types/react':
         specifier: ^19.1.2
@@ -2433,6 +2436,9 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
+  zod@4.0.5:
+    resolution: {integrity: sha512-/5UuuRPStvHXu7RS+gmvRf4NXrNxpSllGwDnCBcJZtQsKrviYXm54yDGV2KYNLT5kq0lHGcl7lqWJLgSaG+tgA==}
+
 snapshots:
 
   '@1natsu/wait-element@4.1.2':
@@ -2951,10 +2957,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.13.8(typescript@5.8.3)(zod@3.25.76)':
+  '@t3-oss/env-core@0.13.8(typescript@5.8.3)(zod@4.0.5)':
     optionalDependencies:
       typescript: 5.8.3
-      zod: 3.25.76
+      zod: 4.0.5
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -4841,3 +4847,5 @@ snapshots:
       jszip: 3.10.1
 
   zod@3.25.76: {}
+
+  zod@4.0.5: {}
