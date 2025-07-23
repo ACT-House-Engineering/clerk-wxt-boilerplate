@@ -1,0 +1,22 @@
+{
+	"files": {
+		// "ignoreUnknown": false,
+		"includes": [
+			"entrypoints/**",
+			"public/**",
+			"src/**",
+			"*.ts",
+			"*.js",
+			"*.tsx"
+		]
+	},
+	"linter": {
+		"rules": {
+			"recommended": true,
+			"performance": {
+				/** @ai Disabling because this project uses standard <img> tags, not Next.js */
+				"noImgElement": "off"
+			}
+		}
+	}
+}
